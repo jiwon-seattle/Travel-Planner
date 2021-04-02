@@ -28,8 +28,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.resolve('dist/index.html'))
 })
 
+const PORT = process.env.PORT || 8083
+
 // designates what port the app will listen to for incoming requests
-app.listen(process.env.PORT || 8083, function () {
+app.listen(PORT, function () {
     console.log('Example app listening on port 8083!')
 })
 
