@@ -27,7 +27,6 @@ function addForecast(forecast, container) {
     frag.appendChild(addWeatherElement(weather, dayForecast))
   }
   container.appendChild(frag)
-  // document.querySelector('.first-page').style.display = 'none'
 }
 
 function addWeatherElement(weather, container) {
@@ -43,7 +42,6 @@ function addWeatherElement(weather, container) {
   let description = document.createElement('p')
   description.innerText = `${weather.weather.description}`
   container.appendChild(description)
-  // document.querySelector('.first-page').style.display = 'none'
   return container
 }
 
@@ -120,8 +118,6 @@ function addList(trips) {
   document.querySelector('.second-page').style.display = ''
   
 }
-
-
 
 async function clearPage() {
   let secondPage = document.querySelector('.second-page')
