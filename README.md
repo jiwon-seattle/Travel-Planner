@@ -36,8 +36,8 @@ Implemented with below specifications.
 
 If a user fills invalid inputs in a form, error message will be given and submit button `Let's go` won't be activated until valid inputs are received.
 
-<img src="img/main.png" width="700px" height="400px" /> 
-<img src="img/validation.png" width="700px" height="400px" />
+<img src="img/main.png" width="300px" height="400px" /> 
+<img src="img/validation.png" width="300px" height="400px" />
 
 2. Countdown & Current weather and Forecast
 
@@ -49,7 +49,7 @@ If the travel is coming within a week, current weather for your trip will be pro
 
 3. Real Photos
 
-Photos of your destination will displayed. This Gallery is created with grid images in CSS.
+Photos of your destination will displayed. This gallery is created with grid images in CSS.
 
 <img src="img/result2.png" width="700px" height="400px" /> 
 
@@ -57,8 +57,8 @@ Photos of your destination will displayed. This Gallery is created with grid ima
 
 [Local Storage](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/) is used for save the trip data so that when they close, then revisit the page, their information is still there. If you save the trip by clicking `Save` button, the trip will be saved to local storage. This button only allows you to save once by automatically being disabled after the click. You will also see the saved trips by clicking `Trips` in the main page. This will show you list of trips that you have saved.
 
-<img src="img/save.png" width="700px" height="400px" /> 
-<img src="img/trip-list.png" width="700px" height="400px" /> 
+<img src="img/save.png" width="400px" height="400px" /> 
+<img src="img/trip-list.png" width="400px" height="400px" /> 
 
 ## Getting Started
 
