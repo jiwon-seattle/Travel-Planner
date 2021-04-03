@@ -42,7 +42,7 @@ If a user fills invalid inputs in a form, error message will be given and submit
 
 Countdown will be displayed from the current date to departure date. <br/>
 
-If the travel is coming within a week, current weather for your trip will be provided. If it's upcoming in more than a week, you will be able to see weather forecast for 10 days. 
+If the travel is coming within a week, current weather and forecast for your trip will be provided. If it's upcoming in more than a week, you will be able to see only weather forecast for 10 days. 
 
 <img src="img/result1.png" width="700px" height="400px" /> 
 
