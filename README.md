@@ -56,7 +56,8 @@ Photos of your destination will displayed. This gallery is created with grid ima
 
 [Local Storage](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/) is used for save the trip data so that when they close, then revisit the page, their information is still there. If you save the trip by clicking `Save` button, the trip will be saved to local storage. This button only allows you to save once by automatically being disabled after the click. You will also see the saved trips by clicking `Trips` in the main page. This will show you list of trips that you have saved.
 
-<img src="img/save.png" width="400px" height="200px" /> <img src="img/trip-list.png" width="400px" height="200px" /> 
+<img src="img/save.png" width="400px" height="200px" /> 
+<img src="img/trip-list.png" width="700px" height="200px" /> 
 
 ## Getting Started
 
