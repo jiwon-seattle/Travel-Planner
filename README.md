@@ -49,7 +49,7 @@ If the travel is coming within a week, current weather and forecast for your tri
 
 3. Real Photos
 
-Photos of your destination will displayed. This gallery is created with grid images in CSS.
+Photos of your destination which are fetched from Pixabay api will be displayed. This gallery is created with grid images in CSS.
 
 <img src="img/result2.png" width="700px" height="400px" /> 
 
