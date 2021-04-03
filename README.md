@@ -1,4 +1,4 @@
-# Evaluate Mind with Natural Language Processing
+# Travel Planner
 
 #### By **Jiwon Han**
 
@@ -11,32 +11,73 @@
 
 ## Instructions
 
-A <strong>Udacity</strong> front-end <em> Evaluate a News Article with Natural Language Processing</em> project.<br/>
+A Udacity front-end <strong> Capstone </strong> <em> Travel Planner </em> project.<br/>
 
-<img src="img/screenshot1.png" width="700px" height="400px" /> 
+<img src="img/overview.gif" width="700px" height="400px" /> 
 
-Natural Language Processing leverages machine learning and deep learning create a program that can interpret natural human speech. Systems like Alexa, Google Assistant, and many voice interaction programs are well known to us, but understanding human speech is an incredibly difficult task and requires a lot of resources to achieve. Full disclosure, this is the Wikipedia definition, but I found it to be a clear one:
+This Travel Planner provides a platform where you can search a future destination's weather and photos.
 
-> Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence
-concerned with the interactions between computers and human (natural) languages, in particular how to program computers to
-process and analyze large amounts of natural language data.
+Implemented with below specifications. 
 
-This site determine various attributes of an article or blog post. Implemented with below specifications. 
-
-- Setting up Webpack
-- Sass styles
+- DOM manipulation
+- Dev and Prod modes
 - Webpack Loaders and Plugins
-- Creating layouts and page design
+- Sass
+- Babel
+- Flexbox & Grid
 - Service workers
-- Using APIs and creating requests to external urls
+- Express
+- External APIs
+- Basic Jest testing
 
-### To see Demo web app:
+### Features
 
-Currently, the app is deployed via Heroku. Visit https://evening-ravine-68189.herokuapp.com/.
+1. Validations
+
+If a user fills invalid inputs in a form, error message will be given and submit button `Let's go` won't be activated until valid inputs are received.
+
+<img src="img/main.png" width="700px" height="400px" /> 
+<img src="img/validation.png" width="700px" height="400px" />
+
+2. Countdown & Current weather and Forecast
+
+Countdown will be displayed from the current date to departure date. <br/>
+
+If the travel is coming within a week, current weather for your trip will be provided. If it's upcoming in more than a week, you will be able to see weather forecast for 10 days. 
+
+<img src="img/result1.png" width="700px" height="400px" /> 
+
+3. Real Photos
+
+Photos of your destination will displayed. This Gallery is created with grid images in CSS.
+
+<img src="img/result2.png" width="700px" height="400px" /> 
+
+4. Save and Travel Plans
+
+[Local Storage](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/) is used for save the trip data so that when they close, then revisit the page, their information is still there. If you save the trip by clicking `Save` button, the trip will be saved to local storage. This button only allows you to save once by automatically being disabled after the click. You will also see the saved trips by clicking `Trips` in the main page. This will show you list of trips that you have saved.
+
+<img src="img/save.png" width="700px" height="400px" /> 
+<img src="img/trip-list.png" width="700px" height="400px" /> 
+
+## Getting Started
 
 ### To run dev mode locally:
 
-[NLP API (Meaningful Cloud)](https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/response) is needed to run the sitre. Please have the API and put in the .env file. 
+In order to run this application, please have below external APIs.
+
+* [Geoanames](https://www.geonames.org/)
+* [Weatherbit](https://www.weatherbit.io/api)
+* [Pixabay](https://pixabay.com/api/docs//)
+ 
+You will need to put these APIs .env file. 
+
+```
+WEATHER_API_KEY = ********************
+PHOTO_API_KEY = ********************
+```
+
+From terminal, put below commands.
 
 ```bash
   $ git clone https://github.com/jiwon-seattle/Mind-Evaluation-with-Natural-Language-Processing.git
@@ -44,7 +85,13 @@ Currently, the app is deployed via Heroku. Visit https://evening-ravine-68189.he
   # After successfull pkg installtion
   $ npm start
 ```
-The production site is automatically hosted in http://localhost:8080 and server is running in http://localhost:8083. 
+The production site is automatically hosted in http://localhost:8083 and server is running in http://localhost:8083. 
+
+### To run dev mode locally:
+
+```
+npm test
+```
 
 ## Technologies
 
@@ -54,8 +101,9 @@ The production site is automatically hosted in http://localhost:8080 and server 
 - WebPack
 - Express.js
 - [Service Workers](https://developers.google.com/web/tools/workbox/guides/generate-service-worker/webpack)
-- [NLP API (Meaningful Cloud)](https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/response)
-- [Heroku Deploymenet](https://www.heroku.com/)
+- [Geoanames](https://www.geonames.org/)
+- [Weatherbit](https://www.weatherbit.io/api)
+- [Pixabay](https://pixabay.com/api/docs//)
 
  ## Contact
   #### Jiwon Han
@@ -64,7 +112,7 @@ The production site is automatically hosted in http://localhost:8080 and server 
 
  ## License
 
- `Evaluate Mind with Natural Language Processing` is open source software [licensed as MIT][license].
+ `Travel Planner` is open source software [licensed as MIT][license].
 
  Copyright (c) 2021 **_Jiwon Han_**
 

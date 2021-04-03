@@ -25,11 +25,13 @@ const photo_application_key = process.env.PHOTO_API_KEY
 const fetch = require("node-fetch")
 
 app.get('/', function (req, res) {
-    res.sendFile(path.resolve('src/client/views/index.html'))
+  res.sendFile(path.resolve('dist/index.html'))
 })
 
+const PORT = process.env.PORT || 8083
+
 // designates what port the app will listen to for incoming requests
-app.listen(8083, function () {
+app.listen(PORT, function () {
     console.log('Example app listening on port 8083!')
 })
 
@@ -86,3 +88,5 @@ app.post('/save', async(req, res, next) => {
     console.log(error)
   }
 })
+
+module.exports = app
