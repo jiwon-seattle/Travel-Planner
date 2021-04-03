@@ -5,7 +5,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Getting Started](#Getting Started)
+* [Getting Started](#GettingStarted)
 * [Technologies](#Technologies)
 * [Contact](#Contact)
 * [License](#License)
