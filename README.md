@@ -80,7 +80,7 @@ PHOTO_API_KEY = ********************
 From terminal, put below commands.
 
 ```bash
-  $ git clone https://github.com/jiwon-seattle/Travel-Plnner.git
+  $ git clone https://github.com/jiwon-seattle/Travel-Planner.git
   $ npm install  
   # After successfull pkg installtion
   $ npm start
@@ -116,4 +116,4 @@ npm test
 
  Copyright (c) 2021 **_Jiwon Han_**
 
- [license]: https://github.com/jiwon-seattle/Travel-Plnner.git/blob/master/LICENSE.md
+ [license]: https://github.com/jiwon-seattle/Travel-Planner.git/blob/master/LICENSE.md
