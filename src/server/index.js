@@ -19,8 +19,8 @@ app.use(cors())
 
 app.use(express.static('dist'))
 
-const weather_application_key = process.env.WEATHER_API_KEY
-const photo_application_key = process.env.PHOTO_API_KEY
+const weather_application_key = '6307c4ed507f40568c123bddc37bdd39'
+const photo_application_key = '20814315-e19ae113e4c46c2383fbffffd'
 
 const fetch = require("node-fetch")
 
