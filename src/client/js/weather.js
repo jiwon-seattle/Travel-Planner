@@ -1,5 +1,3 @@
-const apiKey = '6307c4ed507f40568c123bddc37bdd39'
-
 async function getWeather(lat, lng) {
   let urlParams = new URLSearchParams({ lat: lat, lon: lng })
   fetch(`http://localhost:8083/weather/${urlParams}`, {
