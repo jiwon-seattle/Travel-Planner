@@ -85,7 +85,7 @@ From terminal, put below commands.
   # After successfull pkg installtion
   $ npm start
 ```
-The production site is automatically hosted in http://localhost:8083 and server is running in http://localhost:8083. 
+The production site and server are automatically hosted in http://localhost:8083. 
 
 ### To run dev mode locally:
 
