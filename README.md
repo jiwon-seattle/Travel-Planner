@@ -87,7 +87,7 @@ From terminal, put below commands.
 ```
 The production site and server are automatically hosted in http://localhost:8083. 
 
-### To run dev mode locally:
+### To run test:
 
 ```
 npm test
